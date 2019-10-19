@@ -6,6 +6,7 @@ Command line arguments: python main.py numAgents(int) numSimulation(1,2,3, and/o
 In the command line, type main.py and then type the number of agents you want as an int (1 - infinity) Then the simulation you would like to run as an int(1,2,3 or 4). You can run multiple simulations or just one. Each simulation run at the same time will have the same priors and trust for the agents for accurate comparison between simulations.
 
 *In all simulations, agents make choices in sequential order so even if they 'have access' to all other agents information, they will really only be able to use the information from the agents that have chosen a well before them*
+
 **Description of simulations:**
 ->Simulation One - Agents make choices based only on their own beliefs (priors)
 ->Simulation Two - Agents make choices based on their own beliefs modified by their neighbor's choices. This is a complete cycle network      and each agents has access to all of the other agents choices
